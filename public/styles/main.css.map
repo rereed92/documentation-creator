@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../resources/assets/styles/main.scss"],"names":[],"mappings":"AAAA;CAEC,uBAAuB;CACvB,qBAAc;CAAd,qBAAc;CAAd,cAAc;CACd;;AAED;CACC,gBAAgB;CAChB,mBAAmB;CACnB,aAAa;CACb","file":"main.css","sourcesContent":[".hello\n{\n\tbackground-color: pink;\n\tdisplay: flex;\n}\n\nh1 {\n\tfont-size: 32px;\n\tmargin: 16px 0 0 0;\n\tcolor: black;\n}"]}
