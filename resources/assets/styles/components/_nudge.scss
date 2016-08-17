@@ -1,0 +1,24 @@
+.nudge
+{
+	position: relative;
+	height: 50px;
+	overflow: hidden;
+
+	&__content
+	{
+		animation: transition .5s forwards;
+    	animation-delay: 2s;
+    	background-color: $color-blizzard-blue;
+    	color: $color-mine-shaft;
+    	text-align: center;
+    	position: absolute;
+    	left: 0;
+    	right: 0;
+    	top: -100%;
+	}
+}
+
+@keyframes transition {
+    from {top: -100%;}
+    to {top: 0;}
+}
