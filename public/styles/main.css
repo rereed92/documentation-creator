@@ -452,6 +452,18 @@ th {
 	background-color: #D043B6;
 }
 
+.block__content--green {
+	background-color: #98FB98;
+}
+
+.block__content--orange {
+	background-color: #F08080;
+}
+
+.block__content--grey {
+	background-color: #D3D3D3;
+}
+
 @media only screen and (max-width: 970px) {
 	.block__item--md-1-2 {
 		width: 50%;
@@ -461,6 +473,44 @@ th {
 @media only screen and (max-width: 639px) {
 	.block__item--sm-1-1 {
 		width: 100%;
+	}
+}
+
+.nudge {
+	position: relative;
+	height: 50px;
+	overflow: hidden;
+}
+
+.nudge__content {
+	-webkit-animation: transition .5s forwards;
+	        animation: transition .5s forwards;
+	-webkit-animation-delay: 2s;
+	        animation-delay: 2s;
+	background-color: #AFEEEE;
+	color: #333333;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: -100%;
+}
+
+@-webkit-keyframes transition {
+	from {
+		top: -100%;
+	}
+	to {
+		top: 0;
+	}
+}
+
+@keyframes transition {
+	from {
+		top: -100%;
+	}
+	to {
+		top: 0;
 	}
 }
 /*# sourceMappingURL=main.css.map */
