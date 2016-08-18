@@ -1,0 +1,49 @@
+.button
+{
+	display: inline-block;
+	padding: 15px 20px;
+	border: none;
+
+	&--primary
+	{
+		background-color: $color-picton-blue;
+		color: white;
+
+		&:hover
+		{
+			background-color: darken($color-picton-blue, 20%);
+		}
+	}
+
+	&--secondary
+	{
+		background-color: $color-froly;
+		color: $color-white;
+
+		&:hover
+		{
+			background-color: darken($color-froly, 20%);
+		}
+	}
+
+	&--tertiary
+	{
+		background-color: $color-alto;
+		color: $color-mine-shaft;
+
+		&:hover
+		{
+			background-color: darken($color-alto, 20%);
+		}
+	}
+}
+
+@media only screen and (max-width: $breakpoint-mobile)
+{
+	.button
+	{
+		display: block;
+		width: 100%;
+		margin-bottom: 15px;
+	}
+}
