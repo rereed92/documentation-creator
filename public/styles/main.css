@@ -397,6 +397,10 @@ th {
 	box-sizing: border-box;
 }
 
+img {
+	max-width: 100%;
+}
+
 .spring {
 	margin: 0 auto;
 	max-width: 1200px;
@@ -512,5 +516,134 @@ th {
 	to {
 		top: 0;
 	}
+}
+
+.button {
+	display: inline-block;
+	padding: 15px 20px;
+	border: none;
+}
+
+.button--primary {
+	background-color: #42A1F5;
+	color: white;
+}
+
+.button--primary:hover {
+	background-color: #0b6ec6;
+}
+
+.button--secondary {
+	background-color: #F08080;
+	color: #FFFFFF;
+}
+
+.button--secondary:hover {
+	background-color: #e52525;
+}
+
+.button--tertiary {
+	background-color: #D3D3D3;
+	color: #333333;
+}
+
+.button--tertiary:hover {
+	background-color: #a0a0a0;
+}
+
+@media only screen and (max-width: 639px) {
+	.button {
+		display: block;
+		width: 100%;
+		margin-bottom: 15px;
+	}
+}
+
+.section {
+	margin: 60px 0;
+}
+
+.process {
+	position: relative;
+	margin: 0 auto;
+	max-width: 60%;
+}
+
+.process__information {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	display: block;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.process__number {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: #98FB98;
+	color: #FFFFFF;
+	position: absolute;
+	text-align: center;
+	display: inline-block;
+}
+
+.process__number--active {
+	border: 3px solid #07c007;
+}
+
+.process__number--1 {
+	top: -50px;
+	left: 50%;
+	margin-left: -50px;
+}
+
+.process__number--2 {
+	right: -50px;
+	top: 50%;
+	margin-top: -50px;
+}
+
+.process__number--3 {
+	bottom: -50px;
+	left: 50%;
+	margin-left: -50px;
+}
+
+.process__number--4 {
+	left: -50px;
+	top: 50%;
+	margin-top: -50px;
+}
+
+.process__heading {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	margin: 0;
+}
+
+.process__text {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	margin: 0;
+	text-align: center;
+	display: none;
+}
+
+.process__text--display {
+	display: block;
 }
 /*# sourceMappingURL=main.css.map */
