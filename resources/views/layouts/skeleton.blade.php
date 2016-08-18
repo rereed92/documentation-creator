@@ -18,6 +18,6 @@
         @yield("page")
 
         <!-- <script defer async src="/scripts/vendor/modernizr-custom.min.js"></script> -->
-        <!-- <script defer async src="/scripts/main.min.js"></script> -->
+        <script defer async src="/scripts/main.min.js"></script>
     </body>
 </html>
